@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Villa Rentals Goa">
+  <rect width="64" height="64" rx="10" fill="#0c2723" />
+  <path d="M32 12c6.6 4.6 10.4 10.4 10.4 16.8 0 6.4-4.4 11.6-10.4 14.6-6-3-10.4-8.2-10.4-14.6C21.6 22.4 25.4 16.6 32 12Z" fill="#c98a3c" />
+  <path d="M32 22v22" stroke="#0c2723" stroke-width="2.2" stroke-linecap="round" />
+  <path d="M12 46c3.2 3 6.5 4.4 10 4.4S29 49 32 46c3 3 6.5 4.4 10 4.4S48.8 49 52 46" stroke="#f3ece1" stroke-width="2.6" fill="none" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,98 @@
+/* ==========================================================================
+   Villa Rentals Goa — Design tokens
+   Concept: "Konkan editorial" — deep palm ink, brass accent, sand paper.
+   Restrained radii, hairline rules, generous whitespace.
+   ========================================================================== */
+
+:root {
+  /* --- Brand colour ------------------------------------------------------ */
+  --c-ink: #0c2723;
+  --c-ink-soft: #173f38;
+  --c-teal: #14544a;
+  --c-teal-deep: #0e3b34;
+  --c-brass: #c98a3c;
+  --c-brass-deep: #a56c22;
+  --c-terracotta: #b0552f;
+
+  --c-paper: #fdfaf5;
+  --c-sand: #f2ebe0;
+  --c-sand-deep: #e6dbc9;
+  --c-white: #ffffff;
+
+  --c-text: #17241f;
+  --c-muted: #5e6f68;
+  --c-muted-soft: #8b988f;
+  --c-on-dark: #f4efe6;
+  --c-on-dark-muted: #b7c4bd;
+
+  --c-line: rgba(12, 39, 35, 0.12);
+  --c-line-strong: rgba(12, 39, 35, 0.24);
+  --c-line-dark: rgba(244, 239, 230, 0.18);
+
+  --c-danger: #a3352a;
+  --c-success: #1f6b4f;
+
+  /* --- Typography -------------------------------------------------------- */
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --fs-display-xl: clamp(2.9rem, 6.4vw, 5.4rem);
+  --fs-display-lg: clamp(2.3rem, 4.4vw, 3.6rem);
+  --fs-display-md: clamp(1.75rem, 2.6vw, 2.35rem);
+  --fs-display-sm: clamp(1.3rem, 1.8vw, 1.6rem);
+  --fs-lead: clamp(1.06rem, 1.35vw, 1.22rem);
+  --fs-body: 1rem;
+  --fs-sm: 0.9rem;
+  --fs-xs: 0.78rem;
+  --fs-micro: 0.7rem;
+
+  --lh-tight: 1.06;
+  --lh-snug: 1.25;
+  --lh-body: 1.68;
+
+  --ls-eyebrow: 0.16em;
+  --ls-tight: -0.02em;
+  --ls-display: -0.025em;
+
+  /* --- Space ------------------------------------------------------------ */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 2.75rem;
+  --sp-8: 3.5rem;
+  --sp-9: 5rem;
+  --sp-10: 6.5rem;
+  --sp-11: 8.5rem;
+
+  --shell: 1280px;
+  --shell-wide: 1480px;
+  --gutter: clamp(1.15rem, 4vw, 4rem);
+  --section-y: clamp(4.25rem, 9vw, 8.5rem);
+
+  /* --- Line, radius, shadow -------------------------------------------- */
+  --rule: 1px solid var(--c-line);
+  --rule-dark: 1px solid var(--c-line-dark);
+
+  --r-xs: 2px;
+  --r-sm: 4px;
+  --r-md: 6px;
+  --r-pill: 999px;
+
+  --sh-sm: 0 1px 2px rgba(12, 39, 35, 0.06), 0 8px 20px -14px rgba(12, 39, 35, 0.28);
+  --sh-md: 0 2px 4px rgba(12, 39, 35, 0.05), 0 22px 44px -26px rgba(12, 39, 35, 0.4);
+  --sh-lg: 0 34px 70px -34px rgba(12, 39, 35, 0.45);
+
+  /* --- Motion ----------------------------------------------------------- */
+  --ease-out: cubic-bezier(0.22, 0.68, 0.24, 0.99);
+  --ease-in-out: cubic-bezier(0.5, 0.05, 0.2, 1);
+  --dur-fast: 160ms;
+  --dur: 320ms;
+  --dur-slow: 720ms;
+
+  --z-nav: 60;
+  --z-drawer: 80;
+  --z-top: 100;
+}
